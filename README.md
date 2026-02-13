@@ -1,4 +1,4 @@
-Here is the complete `README.md` file for your **Using Internet Services** project.
+Here is the clean `README.md` file without any citation tags.
 
 ```markdown
 # SDPD CS #08: Using Internet Services 🌐
@@ -13,19 +13,19 @@ This Android application demonstrates the **Client-Server Architecture**. It sho
 
 ### 1. Client vs. Service
 * **Android App (Client):** This is the "Front-end". It is responsible for:
-    * [cite_start]Initiating requests (e.g., "Get Users") [cite: 208-209].
-    * [cite_start]Validating responses[cite: 210].
-    * [cite_start]Updating the UI[cite: 211].
-    * [cite_start]**Note:** The Client never accesses the database directly[cite: 212].
+    * Initiating requests (e.g., "Get Users").
+    * Validating responses.
+    * Updating the UI.
+    * **Note:** The Client never accesses the database directly.
 * **Internet Service (Backend):** This is the "Remote System". It is responsible for:
-    * [cite_start]Processing business logic [cite: 220-221].
-    * [cite_start]Talking to the Database[cite: 222].
-    * [cite_start]Sending back JSON data[cite: 223].
+    * Processing business logic.
+    * Talking to the Database.
+    * Sending back JSON data.
 
 ### 2. Architectural Stability
 The Android code remains **identical** regardless of where the service is hosted.
-* [cite_start]Whether the backend is on your **Local Machine**, a **Production Server**, or the **Cloud** (AWS/Google App Engine) [cite: 341-343].
-* [cite_start]Only the `BASE_URL` changes; the rest of the app logic stays the same[cite: 346, 324].
+* Whether the backend is on your **Local Machine**, a **Production Server**, or the **Cloud** (AWS/Google App Engine).
+* Only the `BASE_URL` changes; the rest of the app logic stays the same.
 
 ---
 
@@ -68,7 +68,7 @@ data class User(val id: Int, val name: String, val email: String)
 
 ### Step 2: The API Contract (`ApiService`)
 
-Defines *how* we talk to the service (Endpoints & HTTP Methods) .
+Defines *how* we talk to the service (Endpoints & HTTP Methods).
 
 ```kotlin
 interface ApiService {
@@ -106,12 +106,13 @@ object ServiceClient {
 4. **Run** on an Emulator or Device.
 5. Click **"Connect to Service"** to fetch data.
 6. Use **"Next/Prev"** to navigate pages.
-7. Click the **"X Close"** button to reset the app.
+7. Click the **"Close"** button to reset the app.
 
 ```
 
 ```
 
+## 🚀 Screenshots
 
 <img width="1249" height="781" alt="Screenshot 2026-02-13 at 10 42 13 AM" src="https://github.com/user-attachments/assets/0a2d0370-9877-41c9-bf4e-9384965061a3" />
 
