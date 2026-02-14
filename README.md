@@ -1,4 +1,4 @@
-Here is the clean `README.md` file without any citation tags.
+ 
 
 ```markdown
 # SDPD CS #08: Using Internet Services 🌐
